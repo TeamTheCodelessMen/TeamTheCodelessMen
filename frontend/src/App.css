@@ -1,0 +1,123 @@
+.card-header {
+  background: #f8f9fa;
+} */
+
+body {
+  background-image: url('images/img1.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+
+}
+
+.company-details-container {
+  padding: 20px;
+}
+
+.company-name {
+  color: #fff;
+  margin: 0;
+}
+
+.table-dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+.table-opacity {
+  opacity: 0.85;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border-color: #444;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 255, 0.4);
+
+  z-index: -1;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn-upload:hover {
+  background: linear-gradient(45deg, #4ad5ff, #5eff00);
+}
+
+.gradient-bg {
+  background: linear-gradient(45deg, #3fda59, #00bfff, #87ceeb);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background: linear-gradient(45deg, #87ceeb, #00bfff, #3fda59);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #1e90ff;
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+
+.card-header {
+  background: #00aaff;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.text-custom {
+  font-family: cursive;
+  color: #ffffff;
+}
+
+.logo {
+  width: 100%;
+  height: 50%;
+  max-width: 200px;
+  margin-left: 5px;
+  display: block;
+}
+
+.bottom-left-text {
+  position: absolute;
+  bottom: 15px;
+  left: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* .btn-upload:hover {
+  background: linear-gradient(45deg, #0056b3, #74aae2);
+} */
+
+.btn-upload {
+  background: linear-gradient(45deg, #1effa9, #00bfff);
+  border: 3px solid #ffffff;
+  margin: 2%;
+  border-radius: 10px;
+
+}
